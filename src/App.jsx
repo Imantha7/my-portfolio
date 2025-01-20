@@ -15,8 +15,8 @@ function App() {
             className="w-full h-full object-cover"
           />
         </div>
-        <h1 className="mt-6 text-2xl font-bold text-white items-center">Imantha Piyumal</h1>
-        <p className="text-yellow-400 text-sm mt-2">Fullstack Developer</p>
+        <h1 className="mt-6 text-2xl font-bold text-white items-center ml-[40px]">Imantha Piyumal</h1>
+        <p className="text-yellow-400 text-sm mt-2 ml-[40px]">Fullstack Developer</p>
         <div className="m-6 ml-10">
           <div className="m-3">
               <h1 className="text-gray-400 text-[14px]">EMAIL</h1>
