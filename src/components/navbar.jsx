@@ -2,13 +2,13 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white shadow-md w-full">
+    <nav className="bg-gray-800 text-white rounded-lg shadow-md w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Left Section */}
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <h1 className="text-2xl font-bold text-yellow-400">My Portfolio</h1>
-          </div>
+          </div> */}
 
           {/* Right Section (Navigation Links) */}
           <div>

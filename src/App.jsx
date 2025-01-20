@@ -44,7 +44,7 @@ function App() {
       <div className="w-[70%] p-10 space-y-10">
         <Navbar/>
         {/* About Me */}
-        {/* <div>
+        <div>
           <h2 className="text-3xl font-bold text-yellow-400">About Me</h2>
           <p className="mt-4 text-gray-300 leading-7">
             A Fullstack developer living and working in Colombo, Sri Lanka. I'm a Creative
@@ -52,10 +52,10 @@ function App() {
             second-year IT undergraduate at the Institute of Technology, University of Moratuwa. 
             I enjoy exploring new technologies and applying them in real-world projects!
           </p>
-        </div> */}
+        </div>
 
         {/* What I'm Doing */}
-        {/* <div>
+        <div>
           <h2 className="text-3xl font-bold text-yellow-400">What I'm Doing</h2>
           <div className="grid grid-cols-2 gap-6 mt-6">
             <div className="bg-gray-800 p-6 rounded-lg shadow-md">
@@ -83,7 +83,7 @@ function App() {
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
