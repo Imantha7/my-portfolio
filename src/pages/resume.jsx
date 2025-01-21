@@ -2,8 +2,17 @@ import Navbar from "../components/navbar";
 import { FcReading } from "react-icons/fc";
 import { FcOk } from "react-icons/fc";
 import { FcPositiveDynamic } from "react-icons/fc";
+import { FcList } from "react-icons/fc";
 
 export default function ResumePage(){
+
+    const skills = [
+        { name: "React Js", percentage: 90 },
+        { name: "Node Js", percentage: 80 },
+        { name: "Wordpress", percentage: 75 },
+        { name: "Python", percentage: 70 },
+      ];
+
     return(
         <div className=" p-10 space-y-10">
             <div className="flex">
@@ -103,6 +112,34 @@ export default function ResumePage(){
               <h1 className="text-white text-[18px]">Updating........</h1>
               </div>
               </div>
+
+            </div>
+            </div>
+
+            <div className="bg-gray-800 p-6 rounded-lg shadow-md mt-7">
+            <div>
+              <div className="flex">
+              <FcList   className="size-10"/>
+              <h3 className="text-2xl font-semibold text-yellow-400 ml-4">My Skills</h3>
+              </div>
+              <div className="space-y-4 ml-12 mt-5">
+                    {skills.map((skill) => (
+                    <div key={skill.name}>
+                        <div className="flex mb-1">
+                        <span className="text-lg text-white font-medium">{skill.name}</span>
+                        <span className="text-yellow-400 ml-3 pt-1">{skill.percentage}%</span>
+                        </div>
+                        <div className="w-[850px] bg-gray-500 rounded-full h-2.5">
+                        <div
+                            className="bg-yellow-400 h-2.5 rounded-full"
+                            style={{ width: `${skill.percentage}%` }}
+                        ></div>
+                        </div>
+                    </div>
+                    ))}
+                </div>
+            </div>
+            <div className="mt-4 ml-4">
 
             </div>
             </div>
