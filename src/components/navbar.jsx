@@ -1,46 +1,65 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 absolute right-10 text-white 
-    rounded-full shadow-md flex justify-end px-4">
+    <nav
+      className="bg-gray-800 absolute right-10 text-white 
+    rounded-full shadow-md flex justify-end px-4"
+    >
       <div className="flex items-center h-16">
         <ul className="flex space-x-12">
           <li>
-            <a
-              href="#about"
-              className="hover:text-yellow-400 transition duration-300 ml-5"
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-yellow-400 font-semibold transition duration-300 ml-5"
+                  : "hover:text-yellow-400 transition duration-300 ml-5"
+              }
             >
               About
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="#resume"
-              className="hover:text-yellow-400 transition duration-300"
+            <NavLink
+              to="/resume"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-yellow-400 font-semibold transition duration-300"
+                  : "hover:text-yellow-400 transition duration-300"
+              }
             >
               Resume
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="#portfolio"
-              className="hover:text-yellow-400 transition duration-300"
+            <NavLink
+              to="/portfolio"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-yellow-400 font-semibold transition duration-300"
+                  : "hover:text-yellow-400 transition duration-300"
+              }
             >
               Portfolio
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a
-              href="#contact"
-              className="hover:text-yellow-400 transition duration-300"
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-yellow-400 font-semibold transition duration-300"
+                  : "hover:text-yellow-400 transition duration-300"
+              }
             >
               Contact
-            </a>
+            </NavLink>
           </li>
           <li>
             <a
-              href="/path-to-your-cv.pdf"
+              href="/G.A.I.P.Kumara.pdf"
               download
               className="hover:text-yellow-400 transition duration-300 mr-5"
             >
@@ -54,3 +73,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

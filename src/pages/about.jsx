@@ -1,6 +1,6 @@
-import Navbar from "../navbar";
+import Navbar from "../components/navbar";
 
-export default function About(){
+export default function AboutPage(){
     return(
         <div className=" p-10 space-y-10">
         <div>

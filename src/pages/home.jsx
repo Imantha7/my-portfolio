@@ -1,6 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
 import { MdMarkEmailRead } from "react-icons/md";
 import About from './about';
+import Resume from './resume';
+import AboutPage from './about';
+import ResumePage from './resume';
+import PortfolioPage from './portfolio';
+import ContactPage from './contact';
 
 export default function HomePage() {
   return (
@@ -15,8 +20,8 @@ export default function HomePage() {
              className="w-full h-full object-cover"
            />
          </div>
-         <h1 className="mt-6 text-2xl font-bold text-white items-center ml-[40px]">Imantha Piyumal</h1>
-         <p className="text-yellow-400 text-sm mt-2 ml-[40px]">Fullstack Developer</p>
+         <h1 className="mt-6 text-3xl font-bold text-white items-center ml-[40px]">Imantha Piyumal</h1>
+         <p className="text-yellow-400 text-xl mt-2 ml-[40px]">Fullstack Developer</p>
          <div className="m-6 ml-10">
            <div className="m-3">
                <h1 className="text-gray-400 text-[14px]">EMAIL</h1>
@@ -42,7 +47,10 @@ export default function HomePage() {
        {/* Main Content Area */}
        <div className="w-[70%] h-screen overflow-y-auto">
          <Routes path="/">
-           <Route path="/" element={<About/>} />
+           <Route path="/" element={<AboutPage/>} />
+           <Route path="/resume" element={<ResumePage/>} />
+           <Route path="/portfolio" element={<PortfolioPage/>} />
+           <Route path="/contact" element={<ContactPage/>} />
          </Routes>
        </div>
       
