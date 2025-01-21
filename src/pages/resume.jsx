@@ -67,7 +67,45 @@ export default function ResumePage(){
             </div>
             </div>
 
-            
+            <div className="bg-gray-800 p-6 rounded-lg shadow-md mt-7">
+            <div className="flex">
+              <FcPositiveDynamic  className="size-10"/>
+              <h3 className="text-2xl font-semibold text-yellow-400 ml-4">Experience</h3>
+            </div>
+            <div className="mt-4 ml-4">
+
+              <div className="flex ml-5 mt-5">
+              <FcOk className="mt-1 size-6"/>
+              <div className="ml-4">
+              <h1 className="text-white text-[18px]">W3Inventor (Pvt.) Ltd</h1>
+              <h2 className="mt-[12px] text-yellow-400">2024</h2>
+              <p className="mt-2 text-white">
+              I worked as a WordPress developer.
+              </p>
+              </div>
+              </div>
+
+              <div className="flex ml-5 mt-6">
+              <FcOk className="mt-1 size-6"/>
+              <div className="ml-4">
+              <h1 className="text-white text-[18px]">Upwork</h1>
+              <h2 className="mt-[12px] text-yellow-400">2020 — Present
+              </h2>
+              <p className="mt-2 text-white">
+              Currently, I am working as a freelancer by creating websites in the Upwork platform and providing those websites to customers.
+              </p>
+              </div>
+              </div>
+
+              <div className="flex ml-5 mt-6">
+              <FcOk className="mt-1 size-6"/>
+              <div className="ml-4">
+              <h1 className="text-white text-[18px]">Updating........</h1>
+              </div>
+              </div>
+
+            </div>
+            </div>
           
             </div>
         </div>
