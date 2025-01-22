@@ -15,7 +15,7 @@ export default function HomePage() {
      <div className="flex w-full h-screen bg-gray-900">
        {/* Left Section */}
        <div className="w-[30%] flex flex-col items-center justify-center bg-gray-800 py-8">
-         
+         <div>
          <div className="w-56 h-56 rounded-full overflow-hidden border-4 border-yellow-500 shadow-lg">
            <img
              src='/my.png' // Path to your image
@@ -45,13 +45,15 @@ export default function HomePage() {
 
          </div>
          <div className='flex m-2'>
-            <Link><ImFacebook2 className='size-7 m-3'/></Link>
-            <Link><IoLogoGithub className='size-7 m-3'/></Link>
+            <Link to="https://www.facebook.com/share/15Ct87fBzi/?mibextid=wwXIfr">
+            <ImFacebook2 className='size-7 m-3'/></Link>
+            <Link to="https://github.com/Imantha7">
+            <IoLogoGithub className='size-7 m-3'/></Link>
             <Link to="https://www.linkedin.com/in/imantha-piyumal-9bb3a9253/">
             <IoLogoLinkedin className='size-7 m-3'/></Link>
             
          </div>
-         
+         </div>
        </div>
 
        {/* Main Content Area */}
