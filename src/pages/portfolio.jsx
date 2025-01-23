@@ -52,6 +52,7 @@ export default function PortfolioPage(){
               src="/studentsmanag/2.png"/>
             </div>
             </div>
+            
             </div>
           </div>
         </div>
