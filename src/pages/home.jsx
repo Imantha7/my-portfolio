@@ -62,13 +62,13 @@ export default function HomePage() {
       </div>
       <div className="flex mt-4">
         <Link to="https://www.facebook.com/share/15Ct87fBzi/?mibextid=wwXIfr">
-          <ImFacebook2 className="text-blue-500 text-3xl mx-3" />
+          <ImFacebook2 className="text-gray-400 text-3xl mx-3" />
         </Link>
         <Link to="https://github.com/Imantha7">
           <IoLogoGithub className="text-gray-400 text-3xl mx-3" />
         </Link>
         <Link to="https://www.linkedin.com/in/imantha-piyumal-9bb3a9253/">
-          <IoLogoLinkedin className="text-blue-700 text-3xl mx-3" />
+          <IoLogoLinkedin className="text-gray-400 text-3xl mx-3" />
         </Link>
       </div>
     </div>
