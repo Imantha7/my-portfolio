@@ -1,5 +1,9 @@
 import Navbar from "../components/navbar";
 import React, { useState } from "react";
+import { FaReact } from "react-icons/fa";
+import { FaNode } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa6";
+import { FaDatabase } from "react-icons/fa";
 
 const testimonials = [
   {
@@ -37,6 +41,11 @@ const testimonials = [
   },
 ];
 
+const react = {color: "00d9ff"}
+const node = {color: "8bc500"}
+const wordpress = {color: "0074a2"}
+const db = {color: "ffa500"}
+
 export default function AboutPage(){
   const [selectedTestimonial, setSelectedTestimonial] = useState(null);
     return(
@@ -46,46 +55,68 @@ export default function AboutPage(){
             <h2 className="text-4xl font-bold pt-6 text-yellow-400">About Me</h2>
             <Navbar/>
           </div>
-          <p className="mt-8 text-gray-300 leading-7">
-            A Fullstack developer living and working in Colombo, Sri Lanka. I'm a Creative
-            Director and Web Developer, specializing in web development and print media. I'm a
-            second-year IT undergraduate at the Institute of Technology, University of Moratuwa. 
-            I enjoy exploring new technologies and applying them in real-world projects!
+          <div className="mt-10 text-gray-300 text-[20px] leading-7">
+          <p>
+          I'm a Fullstack Developer based in Colombo, 
+          Sri Lanka, with a strong foundation in Information 
+          Technology, holding a degree from the Sri Lanka 
+          Institute of Information Technology (SLIIT). I specialize 
+          in developing innovative web applications and delivering 
+          creative solutions in web development and print media, 
+          combining technical expertise with design skills.
           </p>
+          <p className="mt-5">As a dedicated IT graduate, I am passionate about 
+            exploring the latest technologies in fullstack development. 
+            I enjoy acquiring new skills and applying them to real-world 
+            challenges, driving impactful results through continuous learning 
+            and innovation.</p>
+          </div>
         </div>
 
         {/* What I'm Doing */}
         <div>
-          <h2 className="text-3xl font-bold text-yellow-400">What I'm Doing</h2>
+          <h2 className="text-3xl text-yellow-400">What I'm Doing</h2>
           <div className="grid grid-cols-2 gap-6 mt-6">
-            <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="bg-gray-800 p-6 rounded-lg shadow-md flex">
+            <FaReact  className="size-10" style={react}/>
+              <div className="ml-4">
               <h3 className="text-xl font-semibold text-yellow-400">React.js</h3>
               <p className="mt-2 text-gray-300">
                 A JavaScript library for building user interfaces with components.
               </p>
+              </div>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="bg-gray-800 p-6 rounded-lg shadow-md flex">
+            <FaNode   className="size-10" style={node}/>
+              <div className="ml-4">
               <h3 className="text-xl font-semibold text-yellow-400">Node.js</h3>
               <p className="mt-2 text-gray-300">
-                A JavaScript runtime for server-side applications using asynchronous events.
+              A JavaScript runtime for server-side applications using asynchronous events..
               </p>
+              </div>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="bg-gray-800 p-6 rounded-lg shadow-md flex">
+            <FaWordpress className="size-10" style={wordpress}/>
+              <div className="ml-4">
               <h3 className="text-xl font-semibold text-yellow-400">WordPress</h3>
               <p className="mt-2 text-gray-300">
-                A user-friendly platform for creating and managing websites and blogs.
+              A user-friendly platform for creating and managing websites and blogs.
               </p>
+              </div>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+            <div className="bg-gray-800 p-6 rounded-lg shadow-md flex">
+            <FaDatabase className="size-10" style={db}/>
+              <div className="ml-4">
               <h3 className="text-xl font-semibold text-yellow-400">Database Management</h3>
               <p className="mt-2 text-gray-300">
-                Storing, organizing, and retrieving data efficiently and securely.
+              Storing, organizing, and retrieving data efficiently and securely.
               </p>
+              </div>
             </div>
           </div>
         </div>
           <div>
-            <h1 className="text-yellow-400 text-3xl font-bold">Testimonials</h1>
+            <h1 className="text-yellow-400 text-3xl">Testimonials</h1>
             <div className="grid grid-cols-2 gap-6 mt-6">
               {testimonials.map((testimonial)=>(
                 <div key={testimonial.id} className="bg-gray-800 p-4 rounded-lg 
@@ -132,7 +163,7 @@ export default function AboutPage(){
             )}
           </div>
           <div>
-            <h1 className="text-yellow-400 text-3xl font-bold">Clients</h1>
+            <h1 className="text-yellow-400 text-3xl">Clients</h1>
             <div className="bg-gray-800 p-2 rounded-lg shadow-md flex mt-6">
               <img src="12.png" className="w-60 rounded-3xl ml-7"/>
               <img src="14.png" className="rounded-3xl ml-8 mt-6 h-[200px] w-[200px]"/>
