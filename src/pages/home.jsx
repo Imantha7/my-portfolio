@@ -17,7 +17,7 @@ export default function HomePage() {
        {/* Left Section */}
        
        <div className="w-[30%] flex flex-col items-center justify-center bg-gray-800 py-8">
-  <div className="border-gray-900 border-[10px] rounded-3xl">
+  <div className="border-gray-900 border-[10px] rounded-3xl mt-6">
     <div className="m-6 flex flex-col items-center">
       <div
         className="w-56 h-56 rounded-full overflow-hidden border-4 border-yellow-500 shadow-lg"
