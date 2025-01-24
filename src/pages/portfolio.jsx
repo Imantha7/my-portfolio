@@ -16,13 +16,13 @@ export default function PortfolioPage(){
               <h2 className="text-white text-xl ml-4">Cosmetics Managment Ecommerce Website</h2>
             </div>
             <div className="flex-wrap flex">
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/cosmeticsSite/cos1.png"/>
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/cosmeticsSite/cos2.png"/>
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/cosmeticsSite/cos3.png"/>
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/cosmeticsSite/cos4.png"/>
             </div>
             </div>
@@ -32,11 +32,11 @@ export default function PortfolioPage(){
               <h2 className="text-white text-xl ml-4">My Portfolio Website</h2>
             </div>
             <div className="flex-wrap flex">
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/portfoloioimages/1.png"/>
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/portfoloioimages/2.png"/>
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/portfoloioimages/3.png"/>
             </div>
             </div>
@@ -46,9 +46,9 @@ export default function PortfolioPage(){
               <h2 className="text-white text-xl ml-4">Student Management Website</h2>
             </div>
             <div className="flex-wrap flex">
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/studentsmanag/1.png"/>
-              <img className="w-[300px] overflow-hidden rounded-xl m-4" 
+              <img className="w-[250px] overflow-hidden rounded-xl m-4" 
               src="/studentsmanag/2.png"/>
             </div>
             </div>
