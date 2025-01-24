@@ -17,9 +17,9 @@ export default function HomePage() {
        {/* Left Section */}
        
        <div className="w-[30%] flex flex-col items-center justify-center bg-gray-800 py-8">
-  <div className="border-gray-900 border-[10px] rounded-3xl mt-6">
-    <div className="m-6 flex flex-col items-center">
-      <div
+        <div className="border-gray-900 border-[10px] rounded-3xl mt-1">
+          <div className="m-6 flex flex-col items-center">
+        <div
         className="w-56 h-56 rounded-full overflow-hidden border-4 border-yellow-500 shadow-lg"
       >
         <img
@@ -28,9 +28,9 @@ export default function HomePage() {
           className="w-full h-full object-cover"
         />
       </div>
-      <h1 className="mt-6 text-3xl font-bold text-white">Imantha Piyumal</h1>
+      <h1 className="mt-2 text-3xl font-bold text-white">Imantha Piyumal</h1>
       <p className="text-yellow-400 text-xl mt-2">Fullstack Developer</p>
-      <div className="m-6 w-full flex flex-col items-start">
+      <div className="m-1 w-full flex flex-col space-y-3 items-start">
         <div className="m-3 flex items-center">
           <MdMarkEmailUnread className="text-yellow-500 text-2xl" />
           <div className="ml-4">
@@ -60,7 +60,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="flex mt-4">
+      <div className="flex mt-5">
         <Link to="https://www.facebook.com/share/15Ct87fBzi/?mibextid=wwXIfr">
           <ImFacebook2 className="text-gray-400 text-3xl mx-3" />
         </Link>

@@ -49,13 +49,13 @@ const db = {color: "ffa500"}
 export default function AboutPage(){
   const [selectedTestimonial, setSelectedTestimonial] = useState(null);
     return(
-        <div className=" p-10 space-y-10">
+        <div className="mt-4 ml-6 pt-8 w-[1000px] space-y-10">
         <div>
           <div className="flex">
             <h2 className="text-4xl font-bold pt-6 text-yellow-400">About Me</h2>
             <Navbar/>
           </div>
-          <div className="mt-10 text-gray-300 text-[20px] leading-7">
+          <div className="mt-10 text-gray-300 text-[18px] leading-7">
           <p>
           I'm a Fullstack Developer based in Colombo, 
           Sri Lanka, with a strong foundation in Information 
@@ -76,7 +76,7 @@ export default function AboutPage(){
         {/* What I'm Doing */}
         <div>
           <h2 className="text-3xl text-yellow-400">What I'm Doing</h2>
-          <div className="grid grid-cols-2 gap-6 mt-6">
+          <div className="grid grid-cols-2 gap-4 mt-6">
             <div className="bg-gray-800 p-6 rounded-lg shadow-md flex">
             <FaReact  className="size-10" style={react}/>
               <div className="ml-4">
@@ -164,13 +164,14 @@ export default function AboutPage(){
           </div>
           <div>
             <h1 className="text-yellow-400 text-3xl">Clients</h1>
-            <div className="bg-gray-800 p-2 rounded-lg shadow-md flex mt-6">
-              <img src="12.png" className="w-60 rounded-3xl ml-7"/>
-              <img src="14.png" className="rounded-3xl ml-8 mt-6 h-[200px] w-[200px]"/>
-              <img src="16.png" className="rounded-3xl ml-16 mt-6 h-[200px] w-[200px]"/>
-              <img src="22.png" className="w-60 rounded-3xl ml-8 size-70"/>
+            <div className="bg-gray-800 space-x-8 p-2 rounded-lg shadow-md flex mt-6">
+              <img src="12.png" className="w-60 rounded-3xl "/>
+              <img src="14.png" className="rounded-3xl  mt-6 h-[200px] w-[200px]"/>
+              <img src="16.png" className="rounded-3xl  mt-6 h-[200px] w-[200px]"/>
+              <img src="22.png" className="w-60 rounded-3xl size-70"/>
             </div>
           </div>
         </div>
     )
 }
+
