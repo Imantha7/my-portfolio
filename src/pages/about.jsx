@@ -8,7 +8,7 @@ import { FaDatabase } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    name: "John Davis",
+    name: "Aruna de Silva",
     image: "/avatar-1.png", // Replace with actual image path
     shortText: "Working with you has been a truly fantastic experience. From the very start, your...",
     fullText:

@@ -1,8 +1,4 @@
 import Navbar from "../components/navbar";
-import { FcReading } from "react-icons/fc";
-import { FcOk } from "react-icons/fc";
-import { FcPositiveDynamic } from "react-icons/fc";
-import { FcList } from "react-icons/fc";
 
 export default function ResumePage(){
 
