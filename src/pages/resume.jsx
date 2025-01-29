@@ -8,9 +8,9 @@ export default function ResumePage(){
 
     const skills = [
         { name: "React Js", percentage: 90 },
-        { name: "Node Js", percentage: 80 },
-        { name: "Wordpress", percentage: 75 },
-        { name: "Python", percentage: 70 },
+        { name: "Express Js", percentage: 80 },
+        { name: "Tailwind css", percentage: 80 },
+        { name: "Wordpress", percentage: 70 },
       ];
 
     return(
@@ -89,7 +89,7 @@ export default function ResumePage(){
               <h1 className="text-white text-[18px]">W3Inventor (Pvt.) Ltd</h1>
               <h2 className="mt-[12px] text-yellow-400">2024</h2>
               <p className="mt-2 text-white">
-              I worked as a WordPress developer.
+              I worked as a web developer.
               </p>
               </div>
               </div>
